@@ -1,0 +1,31 @@
+{
+  "name": "axios-hook-typescript",
+  "version": "1.2.2",
+  "description": "This is for reducing your self creation axios interceptor time ",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "/lib",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "axios": "^0.26.1",
+    "esquery": "^1.4.0",
+    "react-toastify": "^8.2.0"
+  }
+}
