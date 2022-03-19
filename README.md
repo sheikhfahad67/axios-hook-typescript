@@ -15,7 +15,7 @@ React hooks for [axios] with built in react-tostify integration. Simple to use w
 
 ## Installation
 
-`npm install axios react-toastify axios-interceptor-hook`
+`npm install axios react-toastify axios-hook-typescript`
 
 > `axios` and `react-toastify` are peer dependencies and needs to be installed explicitly
 
