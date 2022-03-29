@@ -93,15 +93,6 @@ export function useMultipartInterceptor() {
           pushToast('error', err || 'Something went wrong', config)
         );
       }
-      if (
-        error &&
-        error.messages &&
-        error.messages[0].status !== 500 &&
-        error.messages[0].data &&
-        error.messages[0].data.message
-      ) {
-        pushToast('error', error.messages[0].data.message, config);
-      }
     }
   };
 

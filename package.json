@@ -1,6 +1,6 @@
 {
   "name": "axios-hook-typescript",
-  "version": "1.2.5",
+  "version": "1.2.7",
   "description": "This is for reducing your self creation axios interceptor time ",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",

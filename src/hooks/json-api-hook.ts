@@ -73,7 +73,7 @@ export function useJsonApiInterceptor() {
         error &&
         error.messages &&
         error.messages[0] &&
-        error.messages[0].status == 500
+        error.messages[0].status === 500
       ) {
         pushToast(
           'error',
@@ -92,15 +92,6 @@ export function useJsonApiInterceptor() {
         error.messages[0].data.errors.map((err: string) =>
           pushToast('error', err || 'Something went wrong', config)
         );
-      }
-      if (
-        error &&
-        error.messages &&
-        error.messages[0].status !== 500 &&
-        error.messages[0].data &&
-        error.messages[0].data.message
-      ) {
-        pushToast('error', error.messages[0].data.message, config);
       }
     }
   };
