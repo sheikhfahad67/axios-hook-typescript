@@ -61,7 +61,7 @@ instance.interceptors.response.use(
   error => {
     console.warn('Error status', error);
     if (error.response) {
-      if (error.response.data.message === 'Unauthenticated.') {
+      if (error.response.data.message === 'Unauthorized') {
         localStorage.removeItem('authToken');
         return (window.location.href = '/');
       }
