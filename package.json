@@ -1,12 +1,26 @@
 {
   "name": "axios-hook-typescript",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "This is for reducing your self creation axios interceptor time ",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
   "license": "MIT",
   "repository": "https://github.com/sheikhfahad67/axios-hook-typescript",
+  "keywords": [
+    "hook",
+    "typescript",
+    "axios",
+    "interceptor",
+    "axios-hook",
+    "axios-hook-typescript",
+    "axios-hook-typescript-npm",
+    "npm",
+    "package",
+    "reactjs",
+    "react",
+    "nodejs"
+  ],
   "files": [
     "/lib",
     "README.md"
